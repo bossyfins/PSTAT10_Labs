@@ -3,7 +3,7 @@
 # 4/13/2021
 
 #Q1 Finds how many element indexes are greater than 7
-x <- c(3, 7, 8, 9, 10, 1)
+x <- c(3, 7, 7, 8, 9, 10, 1)
 ?which
 
 which(x > 7)
@@ -31,7 +31,7 @@ levels(vecFactor)
 
 #Q4D Changes the first level of the factor to A. First assigns vecFactor to 
 # vecFactor2 and then changed it
-vecFactor2 <- z
+vecFactor2 <- vecFactor
 
 levels(vecFactor2)[1] <- "A"
 
@@ -46,9 +46,6 @@ sum(gas > 40)/12
 
 
 #Q5B Creates vector if she spent more than 40 dollars then makes a table 
-
 gasAbove <- c("YES", "NO", "NO", "NO", "YES", "NO", "YES", "NO", "YES", "NO", "NO", "YES")
 
 table(gasAbove)
-
-
